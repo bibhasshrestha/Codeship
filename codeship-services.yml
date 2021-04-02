@@ -5,4 +5,4 @@ demodockerfile:
 demodockerfiledockercompose:
   build: .
 demohub:
-  image: ruby:2.2.0
+  image: ubuntu:18.04

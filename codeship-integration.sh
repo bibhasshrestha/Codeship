@@ -12,6 +12,7 @@ INTEGRATIONS_API_URL='http://f9926a056f21.ngrok.io'
  
 sudo apt-get update -y
 sudo apt-get install -y jq
+sudo apt-get install -y curl
  
 #Trigger test run
 TEST_RUN_ID="$( \

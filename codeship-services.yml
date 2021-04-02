@@ -1,7 +1,8 @@
-app:
+demodockerfile:
   build:
-    image: codeship/app
-    context: app
-    dockerfile: Dockerfile
-    args:
-      build_env: production
+    image: demodockerfile
+    dockerfile_path: Dockerfile
+demodockerfiledockercompose:
+  build: .
+demohub:
+  image: ruby:2.2.0

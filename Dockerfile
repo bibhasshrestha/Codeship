@@ -1,2 +1,2 @@
-FROM ruby:2.2.0
+FROM ubuntu:18.04
 COPY . /app
